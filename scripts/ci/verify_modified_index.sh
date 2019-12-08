@@ -22,7 +22,7 @@ git clone --single-branch -b dev https://github.com/Azure/azure-cli.git ../azure
 log_section_title "Installing azure-cli-dev-tools ..."
 
 pip install azdev
-azdev setup -c ../azure-cli
+azdev setup -c ../azure-cli -r ./
 
 echo "Installed."
 
